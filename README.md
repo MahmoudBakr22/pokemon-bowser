@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧭 Pokemon Explorer
 
-## Getting Started
+Discover and explore Pokémon with ease!  
+Browse through the Pokémon universe using **pagination** or **infinite scroll**, with fast and SEO-friendly performance powered by Next.js 15.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔎 **Explore Pokémon** with smooth pagination or infinite scroll
+- ⚡ **Fast & SEO-optimized** using Next.js App Router and Server Components
+- 🔄 **Incremental Static Regeneration (ISR)** for blazing performance with fresh data
+- 💾 **Dynamic Fetch Caching** for efficient network use
+- 🧵 **Streaming UI** with server components and lazy loading
+- 🚨 **Error Boundaries** for graceful runtime error handling
+- 📱 **Fully responsive** across all screen sizes
+- ☁️ **Deployed on Vercel** for production-grade hosting
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+### 🚀 Next.js 15 (App Router)
 
-To learn more about Next.js, take a look at the following resources:
+Utilized cutting-edge features from Next.js 15:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **App Directory + Server Components**
+- **ISR (Incremental Static Regeneration)**
+- **Dynamic & static caching** with `fetch` and `revalidate`
+- **Streaming** and progressive rendering
+- **SEO benefits** from server-rendered content
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔄 React Query (TanStack Query)
 
-## Deploy on Vercel
+Used for data fetching, caching, and synchronization:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Smart **caching and revalidation**
+- Automatic background **refetching**
+- Built-in **loading and error states**
+- Improves **UI responsiveness** and data consistency
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🧯 Error Boundaries
+
+Wrapped UI in React error boundaries to:
+
+- Catch unexpected runtime errors
+- Show fallback UI without crashing the entire app
+- Improve user experience during failure scenarios
+
+---
+
+## 📱 Responsiveness
+
+The UI is fully responsive and tested across:
+
+- Mobile phones
+- Tablets
+- Desktops
+
+---
+
+## 🚀 Deployment
+
+Deployed on [Vercel]
+(https://pokemon-bowser.vercel.app/)
