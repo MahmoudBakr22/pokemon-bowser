@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 40px !important;
+  color: #333;
+}
+
+.btn {
+  width: 300px;
+  display: flex !important;
+  color: #333 !important;
+  background-color: #fff !important;
+}

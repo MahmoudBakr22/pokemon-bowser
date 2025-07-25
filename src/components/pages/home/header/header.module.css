@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.headerLabelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.headerLabel {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.btnsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-block: 10px;
+}
+
+.light {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.dark {
+  background-color: #000 !important;
+}

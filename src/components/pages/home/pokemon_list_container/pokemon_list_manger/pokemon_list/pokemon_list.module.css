@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  gap: 25px;
+}
+
+.cardSkeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #e7e8ec;
+  border-radius: 5px;
+}

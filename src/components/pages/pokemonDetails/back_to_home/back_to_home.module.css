@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.btn {
+  background-color: #fff !important;
+  color: #333;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  padding: 4px 8px !important;
+}

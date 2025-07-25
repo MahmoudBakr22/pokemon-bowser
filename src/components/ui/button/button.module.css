@@ -1,0 +1,12 @@
+.btn {
+  line-height: 32px;
+  padding-block: 0;
+  padding-inline: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: var(--font-inter) !important;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  text-transform: capitalize !important;
+  letter-spacing: normal;
+}

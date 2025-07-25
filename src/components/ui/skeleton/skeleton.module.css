@@ -1,0 +1,14 @@
+.container {
+  background-color: #e7e8ec;
+  animation: pulse 1.2s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #e7e8ec;
+  }
+
+  100% {
+    background-color: #b8b9be;
+  }
+}

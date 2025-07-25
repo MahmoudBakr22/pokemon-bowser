@@ -1,0 +1,27 @@
+.container {
+  margin-top: 20px;
+}
+
+.abilitiesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.abilityName {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #f6f7f9;
+  font-size: 12px;
+  padding: 4px 16px;
+  border-radius: 15px;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.hidden {
+  font-size: 11px;
+  color: #444;
+}

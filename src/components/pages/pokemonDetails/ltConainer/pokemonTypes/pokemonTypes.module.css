@@ -1,0 +1,13 @@
+.container {
+  margin: 20px 0;
+  text-align: center;
+}
+.type {
+  background-color: #de0c13;
+  font-size: 12px;
+  padding: 4px 12px;
+  color: #fff;
+  border-radius: 15px;
+  text-transform: capitalize;
+  margin-inline-start: 5px;
+}

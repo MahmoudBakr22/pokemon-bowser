@@ -1,0 +1,34 @@
+.container {
+  width: 280px;
+}
+
+.statsContainer {
+  margin-top: 20px;
+}
+
+.statContainer {
+  margin-bottom: 10px;
+}
+
+.labelContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.statName {
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 600;
+}
+.statValue {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.progressBar {
+  color: #333;
+  height: 8px !important;
+  border-radius: 10px;
+}
