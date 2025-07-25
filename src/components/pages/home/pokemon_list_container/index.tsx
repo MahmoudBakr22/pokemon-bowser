@@ -7,7 +7,6 @@ export default async function PokemonListContainer() {
   const pokemonListData = await getPokemonList(
     { limit: POKEMONS_PER_PAGE, pageParam: 0 },
     {
-      cache: "force-cache",
       next: {
         revalidate: 60 * 60,
       },

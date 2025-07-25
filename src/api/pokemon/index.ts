@@ -23,8 +23,17 @@ export const getPokemonList = async (
 
   return pokemonList;
 };
+
 export const getPokemonDetails = async ({ id }: { id: string }): Promise<PokemonDetailsType> => {
-  const data = await fetch(`${BASE_URL}/${FORM_POKEMON_Details_EB(id)}`);
+  // console.time to test fetch Api Caching
+  // console.time("First Fetch");
+  const data = await fetch(`${BASE_URL}/${FORM_POKEMON_Details_EB(id)}`, {
+    cache: "force-cache",
+    next: {
+      revalidate: 60 * 60,
+    },
+  });
+  // console.timeEnd("First Fetch");
   const pokemonDetails = await data.json();
   return pokemonDetails;
 };
