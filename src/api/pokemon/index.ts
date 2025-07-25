@@ -19,7 +19,7 @@ export const getPokemonList = async (
   const pokemonList = await data.json();
 
   // to test Next JS ISR Caching
-  await delay();
+  // await delay();
 
   return pokemonList;
 };
@@ -38,9 +38,9 @@ export const getPokemonDetails = async ({ id }: { id: string }): Promise<Pokemon
   return pokemonDetails;
 };
 
-const delay = () =>
-  new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("");
-    }, 10000);
-  });
+// const delay = () =>
+//   new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve("");
+//     }, 10000);
+//   });
